@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <marquee scrollamount="8" bgcolor=#6495ED style=font-family:arial; font-size:20px>Selamat datang di website kami ! Silahkan isi form registrasi berikut untuk mendaftarkan akun anda !
+        </marquee>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="daftar.css">
+</head>
+<body>
+<center>
+    <form class="login" action="DatabaseRegister.php" method="POST" enctype="multipart/form-data">
+       <fieldset class="login" style="width: 500px; height:600px;">
+        <hr class="garis"  style="border: 2px solid black;">
+        <h1 style="font-size: 20px; text-align: center; margin-top: 10px;">Registration</h1>
+        <p>
+            <label>Nama :</label>
+            <input type="text" name="nama" placeholder="Nama lengkap..." style=" width: 341px; float: right" required="" />
+        </p>
+        <p>
+            <label>Username :</label>
+            <input type="text" name="username" placeholder="Username..." style="width: 341px; float: right" required="" />
+        </p>
+        <p>
+            <label>Password :</label>
+            <input type="password" name="password" placeholder="Password..." style="width: 341px; float: right" required="" />
+        </p>
+        <p>
+            <label>Tempat/Tanggal Lahir : </label>
+            <input type="place" placeholder="Tempat" required="">
+            <input type="date" style="float: right;" required="">
+        </p>
+        <p>
+            <label>Alamat: </label>
+            <input type="text" placeholder="Alamat..." style="width: 341px; float: right" required=""/>
+        </p>
+        <p>
+            <label>Email :</label>
+            <input type="email" name="email" placeholder="Your email..." style="width: 341px; float: right" required="" />
+        </p>
+        <p>
+            <label>Nomer HP :</label>
+            <input type="number" name="phone" placeholder="Masukkan No. Hp"style="width: 341px; float: right" required="" />
+        </p>
+        <p>
+            <label>Jenis kelamin :</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" required="" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" required="" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Upload Scan KTP :</label>
+            <label ><input type="file" name="file_ktp" required="" /></label> 
+        </p>
+        <p>
+            <input type="button" value="Back" onclick="history.go(-1)")> <input type="submit" name="submit" value="Daftar" />
+        </p>
+        <img src="https://3.bp.blogspot.com/-Hqyb-MEYNpo/XL7MoQdTKPI/AAAAAAAAEIc/VjUSFiEqdN8i66ZnKnpmbF4ZJYVKz6kZwCLcBGAs/s1600/logo-wonderful-indonesia.png" height="150" width="400"/>
+        </fieldset>
+    </form>
+</center>
+</body>
+</html>

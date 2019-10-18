@@ -1,0 +1,44 @@
+body {
+	color: #fff;
+	background: url("https://www.visa.co.id/dam/VCOM/regional/ap/indonesia/global-elements/marquees/marquee-wonderful-indonesia-1600x900.jpg");
+}
+
+h1
+
+{
+
+background-color: orange;
+
+text-align: center;
+
+color: white;
+
+padding: 10px;
+
+border-radius: 7px;
+
+}
+
+input[type=submit]
+
+{
+
+background-color: orange;
+
+border-radius:18px;
+
+color: white;
+
+}
+
+input[type=button]
+
+{
+
+background-color: orange;
+
+border-radius:18px;
+
+color: white;
+
+}

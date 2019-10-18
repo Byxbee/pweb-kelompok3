@@ -1,0 +1,219 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Century Gothic';
+}
+
+.navbar {
+    /* background-color:rgba(235, 62, 241, 0.836); */
+    background-color: cadetblue;
+    width: 100%;
+    overflow: hidden;
+    /* position: fixed; */
+    display: block;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    /* background-image: url(img/Group\ 18.png); */
+    /* background-size: cover; */
+    /* background-color:cadetblue; */
+    color: white;
+    float: left;
+    /* margin: 0 auto; */
+    line-height: 100px;
+    margin-left: 50px;
+}
+
+.gambar {
+    height: 80%;
+    width: 80%;
+    /* background-image: url(img/Group\ 18.png); */
+    background-size: cover;
+    /* background-color: brown; */
+    margin: o auto;
+}
+
+.logo h1{
+    margin: 0 auto;
+}
+
+.menu a {
+    /* background-color: maroon; */
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    float:right;
+    padding: 20px 30px;
+    line-height: 60px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    /* background-color:rgba(255, 255, 255, 0.514); */
+    color:lightblue;
+    border-bottom: 3px solid lightblue;
+}
+
+.bck {
+    width: 100%;
+    height:800px;
+    background-color: cadetblue;
+    /* background-color: rebeccapurple; */
+    position: relative;
+    padding-top: 20px;
+}
+
+.image {
+    width: 1000px;
+    height: 500px;
+    border: 2px solid white;
+    background-color: white;
+    background-image: url(img/around.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    position: absolute;
+    /* top: 50px; */
+    left:250px;
+}
+
+.desc {
+    width: 1200px;
+    height: 300px;
+    border: 2px solid white;
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+.desc h3 {
+    margin:30px 30px;
+    font-size: 36px;
+}
+.desc p {
+    margin: 20px 30px;
+}
+
+.bck1 {
+    width: 100%;
+    height: 600px;
+    background-color:cadetblue;
+    /* background-color: violet; */
+    position: relative;
+}
+
+.pattern1 {
+    width: 500px;
+    height: 200px;
+    background-color: #F6D7B0;
+    border: 5px solid white;
+    position: absolute;
+    left: -30px;
+    top: -80px;
+}
+
+.pictjrk- {
+    width: 1000px;
+    height: 500px;
+    border: 2px solid white;
+    background-color: olive;
+    background-image: url(img/rute2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:30px;
+    right: 150px;
+}
+
+.jrk {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    box-sizing: border-box;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+.jrk p {
+    margin: 30px 30px;
+}
+
+.bck2 {
+    width: 100%;
+    height: 600px;
+    /* background-color: indianred; */
+    background-color: cadetblue;
+    position: relative;
+}
+
+.pattern2 {
+    width: 500px;
+    height: 200px;
+    background-color: #F6D7B0;
+    border: 5px solid white;
+    position: absolute;
+    right: -30px;
+    top: 450px;
+}
+
+.wrg {
+    width: 600px;
+    height: 400px;
+    border: 5px solid white;
+    background-color: lightgoldenrodyellow;
+    background-image: url(img/warung\ gunung.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+.htl {
+    width: 500px;
+    height: 300px;
+    border: 5px solid white;
+    background-color: midnightblue;
+    background-image: url(img/penginapangunung2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 200px;
+    right: 350px;
+}
+
+.bck3 {
+    width: 100%;
+    height: 400px;
+    /* background-color: plum; */
+    background-color: cadetblue;
+    position: relative;
+}
+
+.pattern3 {
+    width: 500px;
+    height: 150px;
+    background-color: #F6D7B0;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+    position: absolute;
+    right: -30px;
+    top: -90px;
+}
+
+.ket {
+    width: 800px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 350px;
+}
+
+.ket p {
+    margin: 30px 30px;
+}
