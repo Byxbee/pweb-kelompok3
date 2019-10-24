@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <marquee scrollamount="8" bgcolor=#6495ED style="font-family:arial; font-size:22px">Selamat datang di website kami ! Silahkan login terlebih dahulu untuk menikmati paket liburan yang kami sediakan !
+        </marquee>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<center>
+	<form class="login" action="e-tourismhome.html" method="GET" enctype="multipart/form-data">
+	<fieldset class="login" style="width: 500px; height:600px;">
+		<p class="tulisan_login">Silahkan Login</p>
+		<p>
+		<label>Username :</label>
+        <input minlength="8" type="text" name="username" placeholder="Username..." style="width: 341px; float: right" required="" />
+		</p>
+		<p><label>Password :</label> 
+        <input minlength="8" type="password" name="password" placeholder="Password..." style="width: 341px; float: right" required="" />
+        </p>
+        <p>
+        <input type="submit" class="tombol_login" value="Login">
+		</p>
+		<p>
+		<input type="button" class="tombol_back" value="Kembali" onclick="history.go(-1)">
+		</p>
+		<p>
+		<a type="link" style="color: white" href="register.html">Belum memiliki akun?</a>
+		</p>
+		<img src="img/wi.png" height="150" width="400"/>
+	</center>	
+</fieldset>
+</form>
+</body>
+</html>

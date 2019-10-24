@@ -85,7 +85,7 @@
     border:3px solid white;
     position: absolute;
     top: 200px;
-    left: 31.8%;
+    left: 50%;
 }
 
 .harga p {
@@ -106,11 +106,13 @@
 .angkut {
     width: 400px;
     height: 150px;
-    /* background-color: firebrick; */
-    color: white;
+    border:3px solid white;
     position: absolute;
-    top: 700px;
-    left: 100px;
+    background-color: wheat;
+    color: black;
+    position: absolute;
+    top: 200px;
+    left: 150px;
 }
 
 .gmbr {
@@ -158,9 +160,7 @@
     height: 300px;
     border: 7px solid white;
     background-color: #FFC300;
-    background-image: url(img/alit1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(img/rayap.jpg);
     position:absolute;
     right: 100px;
     top: 850px;
@@ -181,6 +181,7 @@
 }
  .tempatw1D p {
     margin: 20px 20px;
+    text-align: justify;
 }
 
 .tempatw2 {
@@ -188,6 +189,7 @@
     height: 300px;
     border: 7px solid white;
     background-color: #FFC300;
+    background-image: url(img/paseban.jpg);
     position:absolute;
     left:100px;
     top:1300px;
@@ -215,6 +217,7 @@
     height: 300px;
     border: 7px solid white;
     background-color: #FFC300;
+    background-image: url(img/raung.jpg);
     position:absolute;
     right:100px;
     top:1730px;
@@ -263,7 +266,6 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: #F6D7B0;
-    background-image: url(img/leon-seibert-Whgt84a2fSQ-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -277,27 +279,28 @@
     /* background-color: mediumslateblue; */
     position:absolute;
     top: 2350px;
-    left:35%;
+    left:10px;
 }
 
 .fasilitas h1 {
-    font-size: 24px;
+    font-size: 50px;
     text-align: center;
-    color: #FFC300;
+    color: black;
     line-height: 50px;
 }
 
 .fasilitasD {
     width: 600px;
     height: 300px;
+    font-size: 20px;
     /* background-color: white; */
     position:absolute;
-    left:30%;
+    left:10px;
     top:2450px;
 }
 .fasilitasD li {
     list-style-type: decimal;
-    color: #FFC300;
+    color: black;
     margin: 20px 20px;
 }
 

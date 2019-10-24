@@ -5,17 +5,17 @@
 .FORM {
     margin: 0 auto;
     overflow: hidden;
-    float: left;
-    background-image:url(img/malte-wingen-5qT09yIbROk-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: -400px;
+    background-color: lightcyan;
 }
 
 .form {
     width: 500px;
     height: 700px;
     margin: 0 auto;
+    background-image:url(img/malte-wingen-5qT09yIbROk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -400px;
 }
 
 .garis {

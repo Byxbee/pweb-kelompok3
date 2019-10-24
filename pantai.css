@@ -53,7 +53,7 @@
     width: 100vw;
     height: 750px;
     /* background-color: violet; */
-    background-image:url(img/danka-peter-L0o1RfQuPUY-unsplash.jpg);
+    background-image:url(img/pantai.jpg);
     padding-top: 150px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@
     height: 50%;
     margin: 0 auto;
     /* background-color: lightgrey; */
-    background-image: url(img/around.jpg);
+    background-image: url(img/papuma.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -101,7 +101,7 @@
 
 .a2 p {
     font-size: 14px;
-    text-align: left;
+    text-align: justify;
 }
 
 .b {
@@ -117,7 +117,7 @@
     height: 50%;
     margin: 0 auto;
     background-color: lightgrey;
-    background-image: url(img/gunung3.jpg);
+    background-image: url(img/ulo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -133,7 +133,7 @@
 
 .b2 p {
     font-size: 14px;
-    text-align: left;
+    text-align: justify;
 }
 
 .c {
@@ -149,7 +149,7 @@
     height: 50%;
     margin: 0 auto;
     background-color: lightgrey;
-    background-image: url(img/gunung1.jpg);
+    background-image: url(img/payangan.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -165,7 +165,7 @@
 
 .c2 p {
     font-size: 14px;
-    text-align: left;
+    text-align: justify;
 }
 
 .d {
@@ -181,7 +181,7 @@
     height: 50%;
     margin: 0 auto;
     background-color: lightgrey;
-    background-image: url(img/aditya-hermawan-K5WNouzf-TQ-unsplash.jpg);
+    background-image: url(img/puger.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -197,7 +197,7 @@
 
 .d2 p {
     font-size: 14px;
-    text-align: left;
+    text-align: justify;
 }
 
 .e {
@@ -214,7 +214,7 @@
     height: 50%;
     margin: 0 auto;
     background-color: lightgrey;
-    background-image: url(img/azhar-p-R6ASJ2bBSbA-unsplash.jpg);
+    background-image: url(img/alit.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -230,7 +230,7 @@
 
 .e2 p {
     font-size: 14px;
-    text-align: left;
+    text-align: justify;
 }
 
 .f {
@@ -247,10 +247,9 @@
     height: 50%;
     margin: 0 auto;
     background-color: lightgrey;
-    background-image: url(img/brennan-martinez-_24LLIZELHQ-unsplash.jpg);
+    background-image: url(img/paseban.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -75px;
     border-radius: 15px;
 }
 .f2 {
@@ -261,9 +260,10 @@
     color: black;
     margin-top: 10px;
 }
+
 .f2 p {
     font-size: 14px;
-    text-align: left;
+    text-align: justify;
 }
 
 .zzz {

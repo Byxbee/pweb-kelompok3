@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century gothic';
+}
+
+.qwe {
+    position: absolute;
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    /* background-color: lightcoral; */
+}
+
+.logo {
+    width: 400px;
+    height: 100px;
+    /* background-color: violet; */
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    /* background-color: gray; */
+    line-height: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    /* background-color: rebeccapurple; */
+    color: white; 
+    margin-left: 6px;
+    padding: 20px 20px;
+    /* padding-left: 20px; */
+    /* padding-top: 20px; */
+    box-sizing: border-box;
+    font-weight: bold;
+    float: right;
+}
+
+.menu a:hover {
+    /* background-color:rgba(255, 255, 255, 0.514); */
+    color:lightblue;
+    border-bottom: 3px solid lightblue;
+}
+
+.bck {
+    width: 100%;
+    height: 375px;
+    padding-top: 250px;
+    background-color: navajowhite;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/gunung6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: -550px;
+    background-position-y: -75px;
+}
+
+.bbb {
+    width: 400px;
+    height: 200px;
+    /* background-color: lightgray; */
+    margin: 0 auto;
+}
+
+.bbb h1 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.chc1 a{
+    width: 50%;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    line-height: 100px;
+    float: left;
+    text-align: center;
+}
+
+.chc1 a:hover {
+    background-color: cadetblue;
+}
+
+.br {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.ft {
+    width: 100%;
+    height: 800px;
+    background-color: khaki;
+    background-image: url(img/bckgrnd\ pantai.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -500px;
+}
+
+.intertain {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    color: #FFB300;
+    text-align: center;
+    padding-top: 350px;
+    font-size: 14px;
+}
+
+.contact {
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-top: 250px;
+    margin-left: 30px;
+    color: #FFB300;
+}
+
+.mssg {
+    height: 50px;
+    width: 300px;
+    float: right;
+    margin-right: 30px;
+    text-align: right;
+    margin-top: -50px;
+    color: #FFB300;
+
+}
+
+@media  screen and (min-width:900px) {
+.navbar {
+    width: 50%;
+    float: left;
+}
+
+.logo {
+    margin-left: 50px;
+    text-align: left;
+}
+.menu {
+    width: 50%;
+    float: left;
+    /* text-align: center; */
+    /* overflow: hidden; */
+    line-height: 60px;
+}
+
+.menu a {
+    float: right;
+}
+.bck {
+    height: 750px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+.bbb h1 {
+    font-size: 30px;
+}
+
+.ft {
+    background-position-x: 0px;
+}
+
+.intertain {
+    font-size: 18px;
+}
+
+.mssg {
+    margin-top: 250px;
+}
+
+
+
+
+}

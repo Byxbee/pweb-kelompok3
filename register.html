@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <marquee scrollamount="8" bgcolor=#6495ED style="font-family:arial; font-size:22px">Selamat datang di website kami ! Silahkan isi form registrasi berikut untuk mendaftarkan akun anda !
+        </marquee>
+<style>
+    table, th, td{
+        border: 10px ; border-color: solid black;
+        border-collapse: collapse;
+    }th, td{
+        padding: 5px;
+        text-align: left;
+    }
+</style>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+<center>
+
+    <form class="registrasi" action="verifikasi.html" method="GET" enctype="multipart/form-data">
+       <fieldset class="registrasi" style="width: 500px; height:600px;">
+        <table style="width: 100%">
+        <hr class="garis"  style="border: 2px solid black;">
+        <h1 style="font-size: 20px; text-align: center; margin-top: 10px;">Registration</h1>
+            <tr><th>Nama :</th>
+                <th><input type="text" name="nama" placeholder="Nama lengkap..." style=" width: 341px; float: right" required="" /></th>
+        </tr>
+            <tr><th>Username :</th>
+            <th><input minlength="8" type="text" name="username" placeholder="Username..." style="width: 341px; float: right" required="" /></th>
+        </tr>
+            <tr><th>Password :</th>
+                <th><input minlength="8" type="password" name="password" placeholder="Password..." style="width: 341px; float: right" required="" /></th>
+        </tr>
+            <tr><th>Tempat/Tanggal Lahir :</th>
+            <th><input type="place" name="place" placeholder="Tempat" required=""><input type="date" name="date" style="float: right;" required=""></th>
+        </tr>
+            <tr><th>Alamat :</th>
+            <th><input type="text" name="alamat" placeholder="Alamat..." style="width: 341px; float: right" required=""/></th>
+        </tr>
+            <tr><th>Email :</th>
+            <th><input type="email" name="email" placeholder="Your email..." style="width: 341px; float: right" required="" /></th>
+        </tr>
+            <tr><th>Nomer HP :</th>
+            <th><input minlength="11" type="number" name="phone" placeholder="Masukkan No. Hp"style="width: 341px; float: right" required="" /></th>
+        </tr>
+            <tr><th>Jenis kelamin :</th>
+            <th><label><input type="radio" name="jenis_kelamin" value="laki-laki" required="" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" required="" /> Perempuan</label>
+        </th>
+            </tr>
+            <tr><th>Upload Scan KTP :</th>
+            <th><input type="file" name="file_ktp" required="" /></th> 
+        </tr>
+        </table>
+            <tr><input type="button" value="Back" onclick="history.go(-1)"> <input type="submit" name="submit" value="Daftar" />
+        </tr>
+        <img src="img/wi.png" height="150" width="400"/>
+        </fieldset>
+    </form>
+</center>
+</body> 
+</html>
