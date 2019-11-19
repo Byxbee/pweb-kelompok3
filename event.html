@@ -25,9 +25,45 @@
     <!-- body -->
     <div class="container">
 
-        <div class="j1"></div>
-        <div class="j2"></div>
-        <div class="j3"></div>
+        <div class="slideshowcont">
+            <div style="width:500px;
+            height: 300px;
+            border: 1px solid black;
+            background-color: white;
+            background-image: url(img/amanda-phung-1w2xsyc2wwI-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;" class="mySlides">
+            </div>
+
+            <div style="width:500px;
+            height: 300px;
+            border: 1px solid black;
+            background-color: white;
+            background-image: url(img/anton-darius-thesollers-IuQKQxZs-TA-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;" class="mySlides">
+            </div>
+
+            <div style="width:500px;
+            height: 300px;
+            border: 1px solid black;
+            background-color: white;
+            background-image: url(img/thomas-willmott-TK9ymohO1D4-unsplash.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-y: -200px;
+            position: absolute;" class="mySlides"></div>
+        </div>
+        <br>
+
+        <div style="text-align:center" class="dodot">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+        </div>
+
         <div class="up">
             <h1>Acara yang akan datang</h1>
         </div>
@@ -73,5 +109,26 @@
 
     <!-- end footer -->
     
+<script>
+    var slideIndex = 0;
+    showSlides();
+    
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
 </body>
 </html>
